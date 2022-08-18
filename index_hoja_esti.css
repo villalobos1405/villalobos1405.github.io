@@ -1,0 +1,80 @@
+:root{
+    --header: rgb(227, 140, 27);
+    --main: rgb(255, 38, 0);
+    --nav:  rgb(186, 151, 87);
+    --titleColor: rgb(71, 47, 3);
+}
+h1{
+    color: var(--titleColor);
+    text-align: center;
+}
+header{
+    background-color: var(--header);
+    height: 260px;
+    margin: auto;
+    width: 1000px;
+}
+.ordenSup{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    background-color: var(--nav);
+    color: var(--titleColor);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+.logo-img{
+    height: 235px;
+    width: 249px;
+}
+main{
+    height: 520px;
+    margin: auto;
+    width: 1000px;
+}
+.lateralIzq{
+    background-color: var(--main);
+    color: azure;
+    float: left;
+    height: 510px;
+    margin-right: 10px;
+    text-align: center;
+    width: 240px;
+}
+.lateralDer{
+    background-color: var(--main);
+    color: azure;
+    float: right;
+    height: 510px;
+    margin-left: 10px;
+    text-align: center;
+    width: 240px;
+}
+.carrusel{
+    background-color: var(--main);
+    float: left;
+    height: 510px;
+    padding-top: 40px;
+    width: 500px;
+}
+.carFoto{
+    height: 350px;
+    margin-top: 40px;
+    width: 350px;
+}
+footer{
+    background-color: var(--header);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}

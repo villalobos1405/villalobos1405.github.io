@@ -1,0 +1,50 @@
+:root{
+    --header: rgb(227, 140, 27);
+    --main: rgb(226, 153, 140);
+    --nav:  rgb(186, 151, 87);
+    --titleColor: rgb(71, 47, 3);
+}
+h1{
+    color: var(--titleColor);
+    text-align: center;
+    padding-top: 10px;
+}
+header{
+    background-color: var(--header);
+    height: 60px;
+    margin: auto;
+    width: 1000px;
+}
+.ordenSup{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    background-color: var(--nav);
+    color: var(--titleColor);
+    font-size: 18px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+main{
+    background-color: var(--main);
+    color: white;
+    height: 420px;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+footer{
+    background-color: var(--header);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}

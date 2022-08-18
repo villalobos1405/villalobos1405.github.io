@@ -1,0 +1,96 @@
+:root{
+    --nav: rgb(57, 145, 246);
+    --main: rgb(57, 246, 57);
+    --opcion: rgb(212, 126, 14);
+    --opcion2: rgb(142, 46, 8);
+    --opcion3: rgb(135, 72, 212);
+}
+*{
+    background-color: var(--opcion);
+}
+header{
+    background-color: white;
+    color: var(--nav);
+    height: 100px;
+    margin: auto;
+    width: 1000px;
+}
+.ordenSup{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ordenImg{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav{
+    background-color: black;
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+main{
+    height: 600px;
+    margin: auto;
+    width: 1000px;
+}
+.article1{
+    float: left;
+    width: 250px;
+    height: 600px;
+}
+.article2{
+    float: right;
+    width: 250px;
+    height: 600px;
+}
+section{
+    background-color: aqua;
+    float: left;
+    width: 500px;
+    height: 600px;
+}
+table{
+    border-color: black;
+    margin-left: 75px;
+    background-color: rgb(57, 246, 57);
+    text-align: center; 
+    font-size: 26px;
+    text-decoration: underline;
+}
+.izq{
+    float: left;
+    height: 500px;
+    width: 280px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 15px;
+}
+.der{
+    float: left;
+    height: 500px;
+    width: 220px;
+    background-color: aqua;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+div p{
+    background-color: rgb(170, 253, 253);
+    color: black;
+}
+footer{
+    background-color: black;
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="encuesta_hoja_esti.css" rel="stylesheet" type="text/css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <header><h1>Encuesta</h1>
+    </header>
+    <nav class="ordenSup">
+        <a href="gastro.html">Gastronomía</a>
+        <a href="historia.html">Historia</a>
+        <a href="atraccionTurista.html">Atracciones Turísticas</a>
+        <a href="infra-y-comer.html">Infraestructura y Comercio</a>
+        <a href="index.html">Inicio</a>
+    </nav>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nom">Nombre:</label>
+                <input type="text" id="nom" name="nombre"><br>
+                <label for="apel">Apellido:</label>
+                <input type="text" id="apel" name="apellido"><br>
+                <label for="age">Edad:</label>
+                <input type="text" id="age" name="edad"><br>
+                <label for="email">Correo Electronico:</label>
+                <input type="text" id="email" name="email"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Gastronomia</legend>
+                <label for="comida">Seleccione sus comidas preferidas</label><br>
+                <input type="checkbox" id="comida" name="comida">Vigoron<br>
+                <input type="checkbox" id="comida" name="comida">Ceviche<br>
+                <input type="checkbox" id="comida" name="comida">Churchill<br>
+                <input type="checkbox" id="comida" name="comida">Arroz con Mariscos<br>
+            </fieldset>
+            <fieldset>
+                <legend>Turismo</legend>
+                <label for="turismo">Seleccione su atraccion turistica favorito</label><br>
+                <input type="radio" id="turismo" name="lugar">Isla San Lucas<br>
+                <input type="radio" id="turismo" name="lugar">Balneario Punta Pirata<br>
+                <input type="radio" id="turismo" name="lugar">Plazoleta del Faro<br>
+                <input type="radio" id="turismo" name="lugar">Paseo de los turistas<br>
+            </fieldset>
+            <input type="submit" value="Enviar" onclick="alert('Se ha registrado tu respuesta correctamente.\n Gracias!');">
+        </form>
+    </main>
+    <nav class="ordenSup"></nav>
+    <footer class="ordenSup">
+        <a href="https://www.facebook.com/places/Cosas-para-hacer-en-Puntarenas/108424689189074/">Facebook</a>
+        <a href="https://www.instagram.com/yoamopuntarenas/">Instagram</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+:root{
+    --header: rgb(227, 140, 27);
+    --main: rgb(255, 38, 0);
+    --nav:  rgb(186, 151, 87);
+    --titleColor: rgb(71, 47, 3);
+}
+h1{
+    color: var(--titleColor);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+header{
+    background-color: var(--nav);
+    height: 100px;
+    margin: auto;
+    width: 1000px;
+}
+.ordenSup{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ordenColumns{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    background-color: var(--header);
+    color: var(--titleColor);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}
+main{
+    background-color: var(--titleColor);
+    height: 700px;
+    margin: auto;
+    width: 1000px;
+}
+.section1{
+    background-color: rgb(246, 205, 128);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 12px;
+}
+.section1 img{
+    width: 270px;
+    height: 180px;
+}
+.section2{
+    background-color: rgb(246, 138, 128);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.section3{
+    background-color: rgb(246, 205, 128);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 25px;
+}
+
+main p{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+footer{
+    background-color: var(--nav);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}

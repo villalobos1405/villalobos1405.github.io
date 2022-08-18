@@ -1,0 +1,72 @@
+:root{
+    --header: rgb(88, 54, 9);
+    --main: rgb(223, 221, 164);
+    --nav:  rgb(107, 187, 101);
+    --titleColor: rgb(176, 171, 161);
+}
+h1{
+    color: var(--titleColor);
+    text-align: center;
+    padding-top: 10px;
+}
+header{
+    background-color: var(--header);
+    height: 80px;
+    margin: auto;
+    width: 1000px;
+}
+.ordenSup{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ordenImg{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav{
+    background-color: var(--nav);
+    color: var(--titleColor);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}
+main{
+    background-color: var(--main);
+    height: 631px;
+    margin: auto;
+    width: 1000px;
+}
+.divIzq{
+    float: left;
+    height: 609px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 240px;
+}
+.divDer{
+    float: left;
+    height: 609px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 240px;
+}
+.mid{
+    float: left;
+    height: 609px;
+    width: 520px;
+}
+footer{
+    background-color: var(--header);
+    color: var(--titleColor);
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    width: 1000px;
+}
